@@ -1394,6 +1394,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-self: flex-end;
   }
 
+  .lg\:self-stretch {
+    align-self: stretch;
+  }
+
   .lg\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;
