@@ -1398,6 +1398,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-self: stretch;
   }
 
+  .lg\:self-baseline {
+    align-self: baseline;
+  }
+
   .lg\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;

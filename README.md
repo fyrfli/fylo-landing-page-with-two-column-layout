@@ -1,6 +1,6 @@
-# Frontend Mentor - Fylo landing page with two column layout solution
+# Frontend Mentor - Fylo landing page with two column layout solution (using TailwindCSS)
 
-[@fyrfli](https://www.frontendmentor.io/profile/fyrfli)'s solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+[@fyrfli](https://www.frontendmentor.io/profile/fyrfli)'s solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5) using TailwindCSS. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## The challenge
 
