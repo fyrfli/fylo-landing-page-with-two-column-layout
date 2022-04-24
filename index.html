@@ -14,8 +14,8 @@
     </style>
   </head>
 
-  <body class="font-body">
-    <header class="flex justify-between mt-4 mx-2">
+  <body class="font-body ">
+    <header class="flex justify-between mt-6 mx-2 md:w-9/12 md:mx-auto">
       <img src="images/logo.svg" alt="fylo logo" class="h-10">
       <ul class="flex gap-2">
         <li><a href="#">Features</a></li>
@@ -23,17 +23,24 @@
         <li><a href="#">Sign In</a></li>
       </ul>
     </header>
-    <section class="my-12">
-      <img src="images/illustration-1.svg" alt="fylo illustration-1" class="w-10/12 mx-auto">
-      <h2 class="text-2xl text-bold text-center mx-auto py-2 w-80">All your files in one secure location, accessible
+    <section class="py-12 md:w-9/12 md:mx-auto lg:grid lg:grid-cols-2 lg:grid-rows-4 lg:grid-flow-col-dense">
+      <img src="images/illustration-1.svg" alt="fylo illustration-1"
+        class="w-10/12 mx-auto lg:row-start-1 lg:col-start-2 lg:row-span-4 lg:h-auto">
+      <h2
+        class="text-2xl font-bold text-center mx-auto py-8 w-80 lg:col-start-1 lg-row-start-1 lg:text-left lg:w-auto lg:text-4xl lg:font-bold">
+        All your
+        files in one
+        secure location,
+        accessible
         anywhere.
       </h2>
-      <p class="text-slate-600 text-center w-80 mx-auto my-2">
+      <p
+        class="text-slate-600 text-center w-80 md:w-10/12 md:mx-auto mx-auto py-8 lg:col-start-1 lg:row-start-2 lg:text-left lg:w-auto lg:text-lg">
         Fylo stores your most important files in one secure location.
         Access them wherever you need, share and collaborate with friends,
         family, and co-workers.
       </p>
-      <div class="flex flex-col gap-2 justify-center my-4">
+      <div class="flex flex-col gap-2 justify-center py-4 lg:col-start-1 lg:row-start-3 lg:flex-row lg:flex-nowrap">
         <input type="email" name="email" id="top-signup"
           class="bg-white text-blue py-2 pl-2 border-2 border-slate-400 text-blue-300 rounded w-80 self-center"
           placeholder="Enter your email ...">
@@ -41,31 +48,37 @@
       </div>
     </section>
 
-    <img src="images/bg-curve-mobile.svg" alt="" class="object-cover w-full">
+    <img src="images/bg-curve-mobile.svg" alt="" class="block object-cover w-full lg:hidden">
+    <img src="images/bg-curve-desktop.svg" alt="" class="hidden lg:object-cover lg:w-full lg:block">
 
-    <section class="bg-indigo-100/20">
-      <img src="images/illustration-2.svg" alt="fylo illustration-2" class="w-10/12 mx-auto">
-      <div>
-        <h2 class="text-2xl text-bold text-center py-2 w-80 mx-auto">Stay productive, wherever you are</h2>
-        <p class="text-slate-500 text-center w-96 mx-auto my-4">
+    <section class="bg-indigo-100/20 py-10 lg:grid lg:grid-cols-2 lg:grid-rows-4 lg:grid-flow-row-dense">
+      <img src="images/illustration-2.svg" alt="fylo illustration-2"
+        class="w-10/12 mx-auto lg:col-start-2 lg:row-span-5 lg:w-3/5 lg:h-auto">
+      <div class="lg:col-start-1 lg:row-start-1">
+        <h2
+          class="text-2xl font-bold text-center py-2 w-80 mx-auto md:w-9/12 md:mx-auto lg:col-start-1 lg:row-start-1 lg:w-3/5 lg:text-left lg:text-3xl">
+          Stay productive, wherever you
+          are</h2>
+        <p class="text-slate-500 text-center w-96 mx-auto py-4 px-6 md:w-9/12 md:mx-auto lg:text-left lg:w-3/5 lg:px-0">
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
         </p>
-        <p class="text-slate-500 text-center w-80 my-4 mx-auto">
+        <p class="text-slate-500 text-center w-96 py-4 mx-auto px-6 md:w-9/12 md:mx-auto lg:text-left lg:w-3/5 lg:px-0">
           Securely share files and folders with friends, family and colleagues for
           live collaboration. No email attachments required!
         </p>
       </div>
-      <div class="text-green-600 text-center py-2 underline underline-offset-4">
+      <div class="text-green-600 text-center py-6 underline underline-offset-4 lg:text-left lg:py-2 lg:pl-44">
         <a href="#" class="mr-2">See how Fyloworks</a><i data-feather="arrow-right-circle" class="inline"></i>
       </div>
-      <section class="bg-white w-80 mx-auto p-4 rounded-md my-6 shadow-md">
-        <img src="images/icon-quotes.svg" alt="">
+      <section
+        class="bg-white w-80 mx-auto p-8 rounded-md shadow-md md:w-9/12 md:mx-auto lg:w-3/5 lg:-mt-32 lg:ml-44 lg:row-start-3 lg:h-56">
+        <img src="images/icon-quotes.svg" alt="" class="pb-4">
         Fylo has improved our team productivity by an order of magnitude. Since
         making the switch our team has become a well-oiled collaboration machine.
-        <div class="mt-2 flex">
+        <div class="pt-6 flex">
           <img src="images/avatar-testimonial.jpg" alt="ceo avatar" class="rounded-full h-10 align-baseline">
-          <div class="ml-2 flex-col">
+          <div class="pl-4 flex-col">
             <p class="text-sm">Kyle Burton</p>
             <p class="text-xs">Founder & CEO, Huddle</p>
           </div>
@@ -73,46 +86,57 @@
       </section>
     </section>
 
-    <section class="bg-desaturate-blue text-white py-8">
-      <h2 class="text-2xl text-center my-4">Get early access today</h2>
-      <p class="text-center w-96 mx-auto">
+    <section
+      class="bg-desaturate-blue text-white py-8 lg:py-2 lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:grid-flow-row-dense">
+      <h2
+        class="text-2xl text-center py-6 md:w-9/12 md:mx-auto lg:row-start-1 lg:col-start-1 lg:text-3xl font-bold lg:font-bold lg:text-left">
+        Get
+        early access today
+      </h2>
+      <p class="text-center w-96 mx-auto md:w-9/12 md:mx-auto lg:row-start-2 lg:col-start-1 lg:text-left">
         It only takes a minute to sign up and our free starter tier is extremely generous.
         If you have any questions, our support team would be happy to help you.
       </p>
-      <div class="flex flex-col gap-2 justify-center my-8">
+      <div class="flex flex-col gap-2 justify-center lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:w-auto">
         <input type="email" name="email" id="bottom-signup"
-          class="bg-white text-blue py-2 pl-2 border-2 border-slate-400 text-blue-300 rounded w-80 self-center"
+          class="bg-white placeholder-blue-500 py-2 pl-2 border-2 border-slate-400 text-blue-300 rounded w-80 self-center lg:self-start lg:w-3/5"
           placeholder="Enter your email ...">
-        <button type="submit" class="bg-blue-600 text-white py-2 w-80 rounded self-center">Get Started</button>
+        <button type="submit" class="bg-blue-600 text-white py-2 w-80 rounded self-center lg:w-1/5 lg:self-start">Get
+          Started</button>
       </div>
     </section>
 
 
 
     <footer class="bg-dark-blue text-white p-4">
-      <img src="images/logo.svg" alt="fylo logo" class="my-4 saturate-0 invert brightness-0 mix-blend-lighten">
-      <div class="my-4 leading-8">
-        <div class=""><i data-feather="phone" class="inline mr-2"></i>Phone: +1-543-123-4567</div>
-        <div class=""><i data-feather="mail" class="inline mr-2"></i>example@fylo.com</div>
+      <img src="images/logo.svg" alt="fylo logo" class="py-4 saturate-0 invert brightness-0 mix-blend-lighten lg:pl-56">
+      <div class="md:flex md:justify-between lg:justify-evenly">
+        <div class="my-4 leading-8">
+          <div class=""><i data-feather="phone" class="inline mr-2"></i>Phone: +1-543-123-4567</div>
+          <div class=""><i data-feather="mail" class="inline mr-2"></i>example@fylo.com</div>
+        </div>
+        <div class="">
+          <ul class="py-4 leading-8">
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="">
+          <ul class="py-4 leading-8">
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div class="flex gap-4 justify-center">
+          <i data-feather="facebook"></i>
+          <i data-feather="twitter"></i>
+          <i data-feather="instagram"></i>
+        </div>
       </div>
-
-      <div class="">
-        <ul class="my-4 leading-8">
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-          <li>Blog</li>
-        </ul>
-      </div>
-
-      <div class="my-4 leading-8">
-        <ul class="my-4">
-          <li>Contact Us</li>
-          <li>Terms</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
-      <p class="text-xs text-center mt-2">
+      <p class="text-xs text-center pt-2">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           class="hover:text-slate-400">Frontend Mentor</a>.
         <br>

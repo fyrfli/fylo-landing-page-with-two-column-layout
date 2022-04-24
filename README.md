@@ -13,6 +13,9 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
+## My process
+
+I wanted to learn to use frameworks and I actually started this challenge using LESS. But then I spotted a video on Twitter, [reposted by Kevin Powell](https://twitter.com/KevinJPowell/status/1516771739488903181) in which [Kazi Ahmed](https://twitter.com/KaziAhmedDev/status/1516766035398971392) does a Frontend Mentor challenge using Tailwind. It inspired me to restart this challenge and use Tailwind instead.
 ### Links
 
 - Solution URL: [Code](https://github.com/fyrfli/fylo-landing-page-with-two-column-layout)
