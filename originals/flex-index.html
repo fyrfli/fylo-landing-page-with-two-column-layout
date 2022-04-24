@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+
+  <body class="m-auto w-screen font-sans">
+    <header class="flex justify-between">
+      <img src="images/logo.svg" alt="fylo logo" class="justify-start w-32 h-10">
+      <ul class="flex gap-2 justify-end">
+        <li>Features</li>
+        <li>Team</li>
+        <li>Sign In</li>
+      </ul>
+    </header>
+
+    <section class="flex flex-row flex-wrap gap-4">
+      <img src="images/illustration-1.svg" alt="fylo illustration-1" class="w-80 m-auto md:flex-end md:flex-grow">
+      <h2 class="text-center font-extrabold text-2xl">All your files in one secure location, accessible anywhere.</h2>
+      <p class="text-center text-slate-400">
+        Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family, and co-workers.
+      </p>
+      <input type="email" name="email"
+        class="border-2 border-blue-700 rounded-md px-3 py-2 font-sans w-80 text-blue-300 m-auto"
+        placeholder="Enter your email...">
+      <button type="submit" class="bg-blue-500 w-80 m-auto text-white px-3 py-2 rounded-md">Get Started</button>
+    </section>
+    <img src="images/bg-curve-mobile.svg" alt="curve design" class=" object-contain w-full ">
+
+    <section class="bg-indigo-200/20">
+      <img src="images/illustration-2.svg" alt="fylo illustration-2" class="w-80 m-auto py-5">
+      <h2 class="text-bold font-sans text-xl text-center">Stay productive, wherever you are</h2>
+      <p class="text-center text-slate-400 py-3 px-2">
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
+      </p>
+      <p class="text-center text-slate-400 py-3 px-2">
+        Securely share files and folders with friends, family and colleagues for
+        live collaboration. No email attachments required!
+      </p>
+    </section>
+
+    <section class="bg-indigo-200/20">
+      <section class="m-auto py-2 underline underline-offset-8 text-center">
+        <a href="#" class="text-green-600">See how Fylo works</a><i data-feather="arrow-right-circle"
+          class="inline fill-green-600 text-white"></i>
+      </section>
+      <section class="flex flex-col bg-white w-80 mt-2 mx-auto p-8 rounded-sm">
+        <img src="images/icon-quotes.svg" alt="quote icon" class="block my-2 w-4 h-auto">
+        <p>
+          Fylo has improved our team productivity by an order of magnitude. Since
+          making the switch our team has become a well-oiled collaboration machine.
+        </p>
+        <img src="images/avatar-testimonial.jpg" alt="ceo avatar" class="rounded-full w-10 h-auto flex-grow mt-2">
+        <p class="flex-shrink text-sm">Kyle Burton</p>
+        <p class="flex-shrink text-xs">Founder & CEO, Huddle</p>
+      </section>
+    </section>
+
+    <section class="bg-blue-900/70 text-white pb-4">
+      <h2 class="text-xl text-center font-bold">Get early access today</h2>
+      <p class="w-96 text-center mx-auto py-4">
+        It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.
+      </p>
+      <div class="m-auto">
+        <input type="email" name="email"
+          class="border-2 border-blue-700 rounded-md px-3 py-2 font-sans w-60 text-blue-300"
+          placeholder="Enter your email...">
+        <button type="submit" class="block bg-blue-800 text-white py-2 px-3 rounded-md w-60 mt-2">Get Started
+          For
+          Free</button>
+      </div>
+    </section>
+
+
+
+    <footer class="bg-blue-900 text-white mx-auto pt-4">
+      <img src="images/logo.svg" alt="fylo logo"
+        class="fill-white brightness-200 saturation-200 invert mix-blend-saturation stroke-white  mb-4">
+      <section>
+        <section class="flex flex-col ml-4 mb-6">
+          <div><i data-feather="phone" class="inline mr-5"></i>Phone: +1-543-123-4567</div>
+          <div><i data-feather="mail" class="inline mr-5"></i>example@fylo.com</div>
+        </section>
+        <section class="ml-4 my-2 flex flex-row gap-2 mb-6">
+          <ul>
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+        </section>
+        <section class="flex flex-row gap-3 mb-6 ml-4 my-2">
+          <ul>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </section>
+        <section class="flex gap-4 justify-center my-8">
+          <i data-feather="facebook"></i>
+          <i data-feather="twitter"></i>
+          <i data-feather="instagram"></i>
+        </section>
+      </section>
+      <p class="text-center text-xs border-t-2 border-x-white">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          class="hover:text-blue-400">Frontend Mentor</a>.
+        <br>
+        Coded by <a href="https://github.com/fyrfli" class="hover:text-blue-400">Camille Frantz (@fyrfli)</a>.
+    </footer>
+    <script>
+      // function for feather icons
+      feather.replace();
+    </script>
+  </body>
+
+</html>
